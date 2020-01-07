@@ -39,14 +39,14 @@ class BlogRoll extends React.Component {
                     {/* <span> &bull; </span> */}
                   </p>
                 </header>
-                {/* <p>
+                <p>
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  {/* <Link className="button" to={post.fields.slug}>
                     Keep Reading →
-                  </Link>
-                </p> */}
+                  </Link> */}
+                </p>
               </article>
             </div>
           ))}
