@@ -93,7 +93,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY年MMMM月DD日,")
         title
         description
         tags
