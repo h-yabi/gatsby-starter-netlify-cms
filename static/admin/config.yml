@@ -19,7 +19,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      # - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "説明文", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
